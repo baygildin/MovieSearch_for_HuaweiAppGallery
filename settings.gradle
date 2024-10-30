@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "MovieSearch"
+include ':app'
+include ':feature:show_episodes'
+include ':feature:search'
+include ':feature:media_details'
+include ':feature:poster'
+include ':network'
+include ':navigation'
+include ':core'
+include ':feature:liked'

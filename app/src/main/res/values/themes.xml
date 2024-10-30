@@ -1,0 +1,43 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    <style name="Base.Theme.MovieSearch" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--    </style>-->
+
+<!--</resources>-->
+
+
+
+
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--<style name="Base.Theme.MovieSearch.Light" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--    &lt;!&ndash; Основной цвет &ndash;&gt;-->
+<!--    <item name="colorPrimary">@color/c0eacb</item>-->
+<!--    &lt;!&ndash; Цвет текста и иконок на основном цвете &ndash;&gt;-->
+<!--    <item name="colorOnPrimary">@color/white</item>-->
+<!--    &lt;!&ndash; Фон страницы &ndash;&gt;-->
+<!--    <item name="android:windowBackground">@color/white</item>-->
+<!--</style>-->
+<!--</resources>-->
+
+
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Для светлой темы -->
+    <style name="Base.Theme.MovieSearch.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основной цвет -->
+        <item name="colorPrimary">@color/c0eacb</item>
+        <!-- Цвет текста и иконок на основном цвете -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Фон страницы -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Цвет статус-бара -->
+        <item name="android:statusBarColor">@color/black_d</item>
+        <!-- Светлый текст и иконки для светлого статус-бара -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Цвет навигационной панели -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- Светлый цвет иконок навигационной панели для светлой темы -->
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

@@ -1,0 +1,44 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.MovieSearch" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your dark theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_dark_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+<!--</resources>-->
+
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    <style name="Base.Theme.MovieSearch.Dark" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Основной цвет (например, зелёный) &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/c0eacb</item>-->
+<!--        &lt;!&ndash; Тёмный вариант основного цвета &ndash;&gt;-->
+<!--        <item name="colorPrimaryDark">@color/black_d</item>-->
+<!--        &lt;!&ndash; Цвет текста и иконок на основном цвете &ndash;&gt;-->
+<!--        <item name="colorOnPrimary">@color/black</item>-->
+<!--        &lt;!&ndash; Фон страницы &ndash;&gt;-->
+<!--        <item name="android:windowBackground">@color/black_d</item>-->
+<!--    </style>-->
+<!--</resources>-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MovieSearch.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основной цвет (например, зелёный) -->
+        <item name="colorPrimary">@color/c0eacb</item>
+        <!-- Тёмный вариант основного цвета -->
+        <item name="colorPrimaryDark">@color/black_d</item>
+        <!-- Цвет текста и иконок на основном цвете -->
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Фон страницы -->
+        <item name="android:windowBackground">@color/black_d</item>
+
+        <!-- Цвет статус-бара -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Цвет иконок статус-бара в темной теме (белый текст для темного статус-бара) -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Цвет навигационной панели -->
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Цвет иконок навигационной панели в темной теме -->
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
